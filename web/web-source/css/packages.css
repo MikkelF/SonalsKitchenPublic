@@ -1,0 +1,12 @@
+.packages-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3em;
+}
+.package-card {
+    display: flex;
+    min-width: 250px;
+    flex-direction: column;
+    flex: 1;
+}

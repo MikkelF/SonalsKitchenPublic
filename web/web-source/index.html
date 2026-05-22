@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sonal's Kitchen & Catering</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/global.css" />
+  <link rel="stylesheet" href="css/packages.css" />
+  <link rel="stylesheet" href="css/hero.css" />
+  <link rel="stylesheet" href="css/menu.css" />
+  <link rel="stylesheet" href="css/contact.css" />
+</head>
+<body>
+
+  <!-- ==================== NAV ==================== -->
+  <nav>
+    <img src="images/logo_small_shaded.png" alt="SK Catering Logo" class="nav-logo" />
+    <!-- <span class="nav-logo">Sonal's Kitchen & Catering</span> -->
+    <ul class="nav-links">
+      <li><a href="#dishes">Menu</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#packages">Packages</a></li>
+      <li><a href="#contact" class="btn-primary" style="padding:0.55rem 1.2rem;font-size:0.7rem;">Reserve</a></li>
+    </ul>
+  </nav>
+
+  <!-- ==================== HERO ==================== -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="eyebrow hero-eyebrow">Home-made · With Love</p>
+    <h1>Contemporary Asian Cuisine</h1>
+      <p>Delivered to your venue or cooked on-site (where available, contact us for details)</p>
+      <div class="hero-actions">
+        <a href="#dishes" class="btn-primary">View Menu</a>
+        <a href="#contact" class="btn-ghost">Contact Us</a>
+        <a href="#packages" class="btn-ghost">See Packages</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ==================== MENU ==================== -->
+  <section id="menu" class="section">
+    <div class="container">
+
+      <div class="menu-header reveal">
+        <p class="eyebrow">Seasonal Selections</p>
+        <h2>Our Menu</h2>
+        <p>Crafted from locally sourced ingredients, changing gently with the seasons.</p>
+        <ul class="menu-tabs" role="tablist">
+          <li><button class="tab-btn active" data-tab="starters" role="tab">Starters</button></li>
+          <li><button class="tab-btn" data-tab="mains"    role="tab">Mains</button></li>
+          <li><button class="tab-btn" data-tab="sides" role="tab">Sides</button></li>
+        </ul>
+      </div>
+
+      <div class="ornamental-divider reveal"><span>✦</span></div>
+
+      <!-- Starters -->
+      <div id="tab-starters" class="menu-panel active">
+        <div class="panel-label">
+          <p class="eyebrow">To Begin</p>
+          <h3>Starters</h3>
+        </div>
+        <div class="dish-grid">
+
+          <article class="food-card">
+            <div class="food-thumb">
+              <img src="images\menu-items\dynamite-shrimp-2.png" alt="Dynamite Shrimp" />
+              <span class="food-tag"><span>Chef's Pick</span></span>
+            </div>
+            <div class="food-body">
+              <div class="food-header">
+                <h3 class="food-name">Dynamite Shrimp</h3>
+              </div>
+              <p class="food-desc">Golden-fried shrimp, fried to perfection and served with our home-style Dynamite sauce. A spicy kick, yet fit for anybody!</p>
+              <p>
+                <span tooltip="shrimp">🦐</span>
+                <span tooltip="egg">🥚</span>
+              </p>
+              </div>
+          </article>
+
+          <article class="food-card">
+            <div class="food-thumb">
+              <img src="images\menu-items\korean-fried-chicken-wings-1.png" alt="Korean Fried Chicken Wings" />
+            </div>
+            <div class="food-body">
+              <div class="food-header">
+                <h3 class="food-name">Korean Fried Chicken Wings</h3>
+              </div>
+              <p class="food-desc">Delicious chicken wings in gochujang sauce.</p>
+            </div>
+          </article>
+
+          <article class="food-card">
+            <div class="food-thumb">
+              <img src="images\menu-items\crispy-veg-fusion-1.png" alt="Crispy Veg Fusion" />
+              <span class="food-tag">Vegetarian</span>
+            </div>
+            <div class="food-body">
+              <div class="food-header">
+                <h3 class="food-name">Crispy Veg Fusion</h3>
+              </div>
+              <p class="food-desc">Crispy fried vegetables with a blend of Asian spices.</p>
+            </div>
+          </article>
+
+          <article class="food-card">
+            <div class="food-thumb">
+              <img src="images\menu-items\chili-chicken-2.png" alt="Chili Chicken" />
+            </div>
+            <div class="food-body">
+              <div class="food-header">
+                <h3 class="food-name">Chili Chicken</h3>
+              </div>
+              <p class="food-desc">Silky parfait with Madeira jelly, toasted sourdough and pickled shallots.</p>
+            </div>
+          </article>
+
+          <article class="food-card">
+            <div class="food-thumb">
+              <img src="images\menu-items\beef-cutlets-1.png" alt="Beef Cutlets" />
+            </div>
+            <div class="food-body">
+              <div class="food-header">
+                <h3 class="food-name">Beef Cutlets</h3>
+              </div>
+              <p class="food-desc">Minced beef cutlets with vegetables</p>
+            </div>
+          </article>
+
+          <article class="food-card">
+            <div class="food-thumb">
+              <img src="images\menu-items\garlic-glazed-tofu-1.png" alt="Garlic-glazed Tofu" />
+              <span class="food-tag">Vegetarian</span>
+            </div>
+            <div class="food-body">
+              <div class="food-header">
+                <h3 class="food-name">Garlic-glazed Tofu</h3>
+              </div>
+              <p class="food-desc">Tofu glazed with a savory garlic sauce. A savory alternative to traditional meat dishes.</p>
+            </div>
+          </article>
+
+          <article class="food-card">
+            <div class="food-thumb">
+              <img src="images\menu-items\house-buffalo-wings-1.png" alt="House Buffalo Wings" />
+              <span class="food-tag">Kids' Favorite</span>
+            </div>
+            <div class="food-body">
+              <div class="food-header">
+                <h3 class="food-name">House Buffalo Wings</h3>
+              </div>
+              <p class="food-desc">Chicken wings, seasoned and oven-baked.</p>
+            </div>
+          </article>
+
+          <article class="food-card">
+            <div class="food-thumb">🍞
+              <span class="food-tag">Kids' Favorite</span></div>
+            <div class="food-body">
+              <div class="food-header">
+                <h3 class="food-name">Chicken Skewers</h3>
+              </div>
+              <p class="food-desc">Oven-baked chicken skewers, juicy and tender. A popular choice for all ages.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+      <!-- Mains -->
+      <div id="tab-mains" class="menu-panel">
+        <div class="panel-label">
+          <p class="eyebrow">The Heart of the Meal</p>
+          <h3>Main Courses</h3>
+        </div>
+        <div class="dish-grid">
+
+          <article class="food-card">
+            <div class="food-thumb">
+              🥩
+              <span class="food-tag">Chef's Pick</span>
+            </div>
+            <div class="food-body">
+              <div class="food-header">
+                <h3 class="food-name">Beef & Broccoli Stir Fry</h3>
+              </div>
+              <p class="food-desc">A wonderful savoury blend of tender beef and crisp broccoli in a rich sauce.</p>
+            </div>
+          </article>
+
+          <article class="food-card">
+            <div class="food-thumb">
+              🍄
+            </div>
+            <div class="food-body">
+              <div class="food-header">
+                <h3 class="food-name">Mongolian Beef</h3>
+              </div>
+              <p class="food-desc">.</p>
+            </div>
+          </article>
+
+          <article class="food-card">
+            <div class="food-thumb">
+              <img src="images\menu-items\sweet-sour-chicken-2.png" alt="Sweet & Sour Chicken" />
+            </div>
+            <div class="food-body">
+              <div class="food-header">
+                <h3 class="food-name">Sweet & Sour Chicken</h3>
+              </div>
+              <p class="food-desc">Crispy chicken pieces in a tangy sweet and sour sauce.</p>
+            </div>
+          </article>
+
+          <article class="food-card">
+            <div class="food-thumb">🐟</div>
+            <div class="food-body">
+              <div class="food-header">
+                <h3 class="food-name">Red Thai Chicken Curry</h3>
+              </div>
+              <p class="food-desc">Chicken cooked in a rich, spicy red curry sauce.</p>
+            </div>
+          </article>
+
+          <article class="food-card">
+            <div class="food-thumb">
+              <img src="images\menu-items\crispy-beef-2.png" alt="Crispy Beef" />
+            </div>
+            <div class="food-body">
+              <div class="food-header">
+                <h3 class="food-name">Crispy Beef</h3>
+              </div>
+              <p class="food-desc">Crispy beef pieces, double-fried for that perfect crunch.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+      <!-- Sides -->
+      <div id="tab-sides" class="menu-panel">
+        <div class="panel-label">
+          <p class="eyebrow">Sides</p>
+          <h3>Sides</h3>
+        </div>
+        <div class="dish-grid">
+
+          <article class="food-card">
+            <div class="food-thumb">
+              <img src="images\menu-items\jasmine-rice-2.png" alt="Jasmine Rice" />
+            </div>
+            <div class="food-body">
+              <div class="food-header">
+                <h3 class="food-name">Jasmine Rice</h3>
+                <!-- <span class="food-price">000 kr</span> -->
+              </div>
+              <p class="food-desc">You can never go wrong with Jasmine rice! A particularly good choice for our curries.</p>
+            </div>
+          </article>
+
+          <article class="food-card">
+            <div class="food-thumb">🍮
+            <div class="food-body">
+              <div class="food-header">
+                <h3 class="food-name">Plain Noodles</h3>
+              </div>
+              <p class="food-desc">Classic noodles, goes well with most dishes.</p>
+            </div>
+          </article>
+
+          <article class="food-card">
+            <div class="food-thumb">
+              <img src="images\menu-items\egg-fried-rice-2.png" alt="Egg-fried Rice" />
+            </div>
+            <div class="food-body">
+              <div class="food-header">
+                <h3 class="food-name">Egg-fried Rice</h3>
+              </div>
+              <p class="food-desc">Rice fried with Egg, spring onions and soy sauce.</p>
+            </div>
+          </article>
+
+          <article class="food-card">
+            <div class="food-thumb">
+              🍧
+            </div>
+            <div class="food-body">
+              <div class="food-header">
+                <h3 class="food-name">Chow Mein Noodles</h3>
+              </div>
+              <p class="food-desc">Delicious stir-fried noodles with fresh vegetables</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- ==================== PACKAGES ==================== -->
+  <section id="packages" class="section">
+    <div class="container">
+      <div class="packages-header reveal">
+        <h3>Packages</h3>
+        <br/>
+        <p>Pick from our selection of customizable catering packages designed to suit your event's needs, or work with us to create a personalized menu. You can also pick from our finger-food-friendly starters for events requiring lighter options. Vegetarian options available upon request.</p>
+        <p>Delivery and on-site cooking available (where possible, contact us for details).</p>
+        <p>Minimum order: 20 persons</p>
+      </div>
+
+      <div class="ornamental-divider reveal"><span>✦</span></div>
+
+      <div class="packages-grid">
+
+        <article class="package-card reveal">
+          <div class="eyebrow large">Classic Asian Buffet</div>
+          <p>A selection of our most popular dishes, perfect for small gatherings and casual events.</p>
+          <div class="ornamental-breaker"><span>✦</span></div>
+          <p class="eyebrow">Starters</p>
+          <ul>
+            <li>Chili Chicken</li>
+            <li>Crispy Veg Fusion</li>
+          </ul>
+          <p class="eyebrow">Main Courses</p>
+          <ul>
+            <li>Thai Red Curry</li>
+            <li>Beef & Broccoli Stir Fry</li>
+          </ul>
+          <p class="eyebrow">Sides</p>
+          <ul>
+            <li>Jasmine Rice</li>
+            <li>Chow Mein Noodles</li>
+            <li>Crunchy Side <i>du Jour</i></li>
+          </ul>
+          <p><b>279 kr / person</b></p>          
+          <div class="ornamental-breaker"><span>✦</span></div>
+        </article>
+
+        <article class="package-card reveal">
+          <div class="eyebrow large">Signature Buffet</div>
+          <p>Chef's Favourite Menu, guaranteed to impress your guests.</p>
+          <div class="ornamental-breaker"><span>✦</span></div>
+          <p class="eyebrow">Starters</p>
+          <ul>
+            <li>Chili Chicken <i> or </i> Chili Tofu</li>
+            <li>Dynamite Shrimp</li>
+            <li>Korean Fried Chicken Wings</li>
+          </ul>
+          <p class="eyebrow">Main Courses</p>
+          <ul>
+            <li>Crispy Beef</li>
+            <li>Lamb Curry <i> or </i> Thai Red Curry</li>
+          </ul>
+          <p class="eyebrow">Sides</p>
+          <ul>
+            <li>Jasmine Rice</li>
+            <li>Egg Fried Rice</li>
+            <li>Chow Mein Noodles <i> or </i> Plain Noodles</li>
+            <li>Crunchy Side <i>du Jour</i></li>
+          </ul>
+          <p><b>359 kr / person</b></p>          
+          <div class="ornamental-breaker"><span>✦</span></div>
+        </article>
+
+        <article class="package-card reveal">
+          <div class="eyebrow large">Kids' Menu</div>
+          <p>Designed for young palates, our kid's menu features fun, familiar flavors that kids love.</p>
+          <div class="ornamental-breaker"><span>✦</span></div>
+          <p class="eyebrow">Starters</p>
+          <ul>
+            <li>Buffalo Wings</li>
+            <li>Chicken Skewers</li>
+          </ul>
+          <p class="eyebrow">Main Courses</p>
+          <ul>
+            <li>Beef & Broccoli Stir Fry</li>
+          </ul>
+          <p class="eyebrow">Sides</p>
+          <ul>
+            <li>Jasmine Rice <i> or </i> Egg Fried Rice</li>
+            <li>Chow Mein Noodles <i> or </i> Plain Noodles</li>
+            <li>Crunchy Side <i>du Jour</i></li>
+          </ul>
+          <p><b>189 kr / person</b></p>          
+          <div class="ornamental-breaker"><span>✦</span></div>
+        </article>
+
+        <article class="package-card reveal">
+          <div class="eyebrow large">Finger Food Menu</div>
+          <p>Perfect for casual gatherings and events where guests prefer to eat while standing.</p>
+          <div class="ornamental-breaker"><span>✦</span></div>
+          <p class="eyebrow">Starters - select any two</p>
+          <ul>
+            <li>Crispy Veg Fusion</li>
+            <li>Buffalo Wings</li>
+            <li>Chicken Skewers</li>
+            <li>Korean Fried Chicken Wings</li>
+            <li>Chili Chicken</li>
+            <li>Chili Tofu</li>
+            <li>Dynamite Shrimp</li>
+            <li>Beef Cutlets</li>
+          </ul>
+          <p class="eyebrow">Sides (all included)</p>
+          <ul>
+            <li>Ketchup</li>
+            <li>Sweet Chili Sauce</li>
+            <li>Chili Mayo</li>
+            <li>Crunchy Side <i>du Jour</i></li>
+          </ul>
+          <p><b>179 kr / person</b></p>          
+          <div class="ornamental-breaker"><span>✦</span></div>
+        </article>
+
+      </div>
+
+    </div>
+  <!-- ==================== CONTACT ==================== -->
+  <section id="contact" class="section">
+    <div class="container">
+
+      <div class="contact-header reveal">
+        <p class="eyebrow">Contact Information</p>
+        <p>We'd love to serve your next party or event! Get in touch to make a reservation.</p>
+      </div>
+
+      <div class="contact-grid">
+
+        <div class="contact-info reveal">
+          <div class="info-block">
+            <div class="info-glyph">📍</div>
+            <div>
+              <div class="info-text-label">Address</div>
+              <div class="info-text-value">Gammel Bøvlvej 29B<br>7260 Sønder Omme</div>
+            </div>
+          </div>
+          <div class="info-block">
+            <div class="info-glyph">📞</div>
+            <div>
+              <div class="info-text-label">Phone</div>
+              <div class="info-text-value"><a href="tel:+4591111813">+45 91 11 18 13</a></div>
+            </div>
+          </div>
+          <div class="info-block">
+            <div class="info-glyph">✉️</div>
+            <div>
+              <div class="info-text-label">Email</div>
+              <div class="info-text-value"><a href="mailto:orders@skcatering.dk">orders@skcatering.dk</a></div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h3>About Us</h3>
+          <p>Sonal's Kitchen & Catering offers Asian fusion catering in Denmark, serving flavorful buffets, starters, and party menus for birthdays, corporate events, private gatherings, and special occasions. We combine fresh ingredients, bold flavors, and homemade recipes to create memorable dining experiences for every event.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer>
+    <span class="footer-logo">Sonal's Kitchen & Catering</span>
+    <img src="images/logo_small.png" alt="SK Catering Logo" class="footer-logo" />
+    <p>© 2026 SK Catering</p>
+  </footer>
+
+  <script src="js/menu.js"></script>
+  <script src="js/contact.js"></script>
+  <script src="js/reveal.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+/* =========================================
+   TOKENS & RESET
+========================================= */
+:root {
+  --color-bg:            #1f1f1c;
+  --color-bg-soft:       #2a2a26;
+  --color-surface:       #2f2e2a;
+  --color-surface-light: #3a3934;
+  --color-primary:       #8b6b47;
+  --color-primary-soft:  #b08a61;
+  --color-text:          #f3eee5;
+  --color-text-muted:    #cfc7bb;
+  --color-border:        rgba(176, 138, 97, 0.25);
+  --color-accent:        #6f7b64;
+  --font-display: 'Cormorant Garamond', serif;
+  --font-body:    'Jost', sans-serif;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background:  var(--color-bg);
+  color:       var(--color-text);
+  font-family: var(--font-body);
+  font-weight: 300;
+  line-height: 1.6;
+  overflow-x:  hidden;
+}
+
+img { display: block; width: 100%; }
+a   { color: inherit; text-decoration: none; }
+button { font-family: inherit; cursor: pointer; }
