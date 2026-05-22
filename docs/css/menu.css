@@ -138,6 +138,7 @@
   font-weight: 500;
   color:       var(--color-primary-soft);
   white-space: nowrap;
+  text-align: end;
 }
 
 .food-desc {
